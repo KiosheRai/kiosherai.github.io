@@ -1,0 +1,12 @@
+html{background-image: url(background.png);
+    }
+header{
+    background-image: url(head.png);
+    text-align: center;
+    background-size: 100%;
+    text-shadow: 2px;
+}
+#sd{
+    color: brown;
+    background-color: aqua;
+}
