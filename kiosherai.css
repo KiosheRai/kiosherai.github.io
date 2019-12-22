@@ -1,7 +1,7 @@
-html{background-image: url(background.png);
+html{background-image: url(pic\background.png);
     }
 header{
-    background-image: url(head.png);
+    background-image: url(pic\head.png);
     text-align: center;
     background-size: 100%;
     text-shadow: 2px;
