@@ -1,0 +1,72 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background: url(pic/back.jpg) no-repeat black center;
+    background-attachment: fixed;
+    background-size: 120%;
+    
+    
+
+}
+header{
+    width: 300px;
+    height: 40px;
+    margin-right:auto ;
+    margin: 30px 10px 0px 74%;
+    padding: 0px;
+    background: rgba(56,188,114,0.9);
+}
+nav{
+    width: calc(100% - 12px);
+    height: 40px;
+    margin: 120px 0px 0px 0px;
+    padding: 5px;
+    background: url(pic/black.png) salmon;
+    background-size: 100%;
+    border-top: 2px solid salmon;
+    border-bottom: 2px solid salmon;
+    border-radius: 0px;  
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+aside{
+    width: 97%;
+    height: 600px;
+    background: rgba(50,50,55,0.9);
+    padding: 5px;
+    margin: 40px 1% 0px 1%;
+}
+footer{
+    width: calc(100% - 10px);
+    height: 70px;
+    background: rgba(50,50,55,0.9);
+    padding: 5px;
+    margin: 30px 0px 0px 0px;
+}
+#name1,#name2,#name3{
+    height: 36px;
+    width: 94px;
+    margin: 0px 0px 0px 0px;
+    padding: 2px;
+    color: white;
+    float: left;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+#name1 p{
+    font-style: italic;
+}
+#name2{
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+}
+#name3{
+    margin-top: 9px; 
+    
+    
+}
