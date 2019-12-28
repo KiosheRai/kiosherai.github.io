@@ -3,6 +3,8 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
+   /* border: red 2px dotted;*/
+    box-sizing: content-box;
 }
 html{
     background: url(pic/back.jpg) no-repeat black center;
@@ -50,7 +52,7 @@ footer{
 }
 #name1,#name2,#name3{
     height: 36px;
-    width: 94px;
+    width: 92px;
     margin: 0px 0px 0px 0px;
     padding: 2px;
     color: white;
@@ -61,13 +63,27 @@ footer{
 }
 #name1 p{
     font-style: italic;
+    font-weight: bold;
 }
 #name2{
     border-left: 1px white solid;
     border-right: 1px white solid;
 }
 #name3{
-    margin-top: 9px; 
-    
-    
+     
+}
+
+#name3:hover, #name1 p:hover, #name2 :hover{  
+    background-color: rgba(0,100,70,0.9);
+}
+#prof{
+    font-size: 0.8em;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+#money{
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: normal;
 }
