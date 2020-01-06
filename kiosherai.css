@@ -3,24 +3,33 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
-   /* border: red 2px dotted;*/
-    box-sizing: content-box;
 }
 html{
     background: url(pic/back.jpg) no-repeat black center;
     background-attachment: fixed;
     background-size: 120%;
-    
-    
-
 }
 header{
     width: 300px;
-    height: 40px;
+    height: 82px;
     margin-right:auto ;
     margin: 30px 10px 0px 74%;
     padding: 0px;
     background: rgba(56,188,114,0.9);
+}
+#header_text{
+    width: 200px;
+    height: 30px;
+    padding: 3px;
+    display: table-cell;
+}
+#header_icon{
+    width: 75px;
+    height: 80px;
+    border: black solid 1px;
+    background: url(pic/background.jpg) no-repeat rgba(56,188,114,0.9);
+    background-size: 100%;
+    display: table-cell;
 }
 nav{
     width: calc(100% - 12px);
@@ -38,12 +47,34 @@ nav{
 }
 aside{
     width: 97%;
-    height: 600px;
+    min-height: 600px;
     background: rgba(50,50,55,0.9);
     padding: 5px;
     margin: 40px 1% 0px 1%;
     color: white;
     text-align: center;
+}
+aside p{
+    margin: 10px;
+    font-size: 1.4em;
+}
+aside div{
+    margin: 0px 4% 0px 4%;
+    border-top: red solid 1px;
+    border-bottom: red solid 1px;
+    display: flex;
+}
+aside img{
+    margin: 10px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    
+}
+aside h2{
+    font-size: 3em;
+    font-family:  URW Chancery L, cursive;
+    margin-bottom: 20px; 
 }
 footer{
     width: calc(100% - 10px);
@@ -52,40 +83,55 @@ footer{
     padding: 5px;
     margin: 30px 0px 0px 0px;
 }
-#name1,#name2,#name3{
-    height: 36px;
-    width: 92px;
-    margin: 0px 0px 0px 0px;
-    padding: 2px;
-    color: white;
-    float: left;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
-#name1 p{
-    font-style: italic;
-    font-weight: bold;
-}
-#name2{
-    border-left: 1px white solid;
-    border-right: 1px white solid;
-}
-#name3{
-     
+
+/*Мигающий текст*/
+#blink {
+    -webkit-animation: blink 2s linear infinite; 
+    animation: blink 2s linear infinite; 
+    font-weight: bold; 
+    color: color: #F00; 
 }
 
-#name3:hover, #name1 p:hover, #name2 :hover{  
-    background-color: rgba(0,100,70,0.9);
+@-webkit-keyframes blink { 
+    0% { color: #F00; }
+    50% { color: #FBB; }
+    100% { color: #F00; }
 }
-#prof{
-    font-size: 0.8em;
-    font-family: normal;
-    font-style: normal;
-    font-weight: normal;
+
+@keyframes blink {  
+    0% { color: #F00; }
+    50% { color: #FBB; }
+    100% { color: #F00; } 
 }
-#money{
-    font-size: 0.8em;
-    font-style: italic;
-    font-weight: normal;
+#reklama{
+    position: fixed;
+    background: rgb(50,50,55);
+    border-radius: 10px;
+    border-top: red solid 1px;
+    border-left: red solid 1px;
+    border-right: red solid 1px;
+    padding: 5px;
+    bottom: 1px;
+    right: 30%;
+    width: 500px; 
+    height: 100px;
+    font-size: 2em;
+    color: white;
+}
+#reklama img{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-left: 50px; 
+    bottom: 40px;
+}
+#low_text{
+    font-size: 0.5em;
+    text-indent: 2px;
+}
+#last_img{
+    display: absolute;
+    width: 200px;
+    height: 200px;
+    right: 50px;
 }
