@@ -103,35 +103,3 @@ footer{
     50% { color: #FBB; }
     100% { color: #F00; } 
 }
-#reklama{
-    position: fixed;
-    background: rgb(50,50,55);
-    border-radius: 10px;
-    border-top: red solid 1px;
-    border-left: red solid 1px;
-    border-right: red solid 1px;
-    padding: 5px;
-    bottom: 1px;
-    right: 30%;
-    width: 500px; 
-    height: 100px;
-    font-size: 2em;
-    color: white;
-}
-#reklama img{
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin-left: 50px; 
-    bottom: 40px;
-}
-#low_text{
-    font-size: 0.5em;
-    text-indent: 2px;
-}
-#last_img{
-    display: absolute;
-    width: 200px;
-    height: 200px;
-    right: 50px;
-}
