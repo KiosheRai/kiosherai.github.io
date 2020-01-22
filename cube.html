@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" Content="text/html; charset=utf-8" /> 
+    <link rel="stylesheet" type="text/css" href="kiosherai.css">
+    <meta name="keywords" content="test,kiosherai,website">
+    <link rel="shortcut icon" href="pic/icon.png" type="image/png">
+    <title>KiosheRai</title>
+</head>
+<body>
+	
+<header>
+ 	<div id="header_text"><p><span id="fist_word">MicroPines</span><br/><span id = "second_word"> Coproration</span></p></div>
+ 	<div id="header_icon"></div>
+</header>
+<nav>
+<div class = "nav_bar"><a href="index.html">Главная</a></div>
+<div class = "nav_bar"><a href="cube.html">3D Куб</a></div>
+<div class = "nav_bar">s</div>
+<div class = "nav_bar">s</div>
+<div class = "nav_bar">s</div>
+</nav>
+<aside>
+	<div id = "window_for_cube">
+<div class="container">
+	<script type="text/javascript">(function () {
+	var rotateY = 0,
+		  rotateX = 0;
+
+	document.onkeydown = function (e) {
+			   if (e.keyCode === 65) rotateY -= 4
+		else if (e.keyCode === 87) rotateX += 4
+		else if (e.keyCode === 68) rotateY += 4
+		else if (e.keyCode === 83) rotateX -= 4
+
+		document.querySelector('.cube').style.transform = 
+      'rotateY(' + rotateY + 'deg)'+
+      'rotateX(' + rotateX + 'deg)';
+    }
+})();
+	</script>
+	<div class="cube">
+		<div class="side front">front</div>
+		<div class="side back">back</div>
+		<div class="side right">right</div>
+		<div class="side left">left</div>
+		<div class="side top">top</div>
+		<div class="side bottom">bottom</div>
+	</div>
+	<div id="window_panel">Управление:<br/><br/>Используйте WASD для изменения наклона куба.</div>
+</div>
+</div>
+</aside>
+<footer>
+<p>footer</p>
+</footer>
+
+
+</body>
+</html>
