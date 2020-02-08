@@ -155,16 +155,15 @@ footer{
 	margin-top: 45px;
 	width: 100%;
 	min-height: 900px;
-	padding: 15px;
 }
 
 .col1, .col2, .col3{
 	display: inline-block;
 	background-color: rgb(247,247,245);
-	width: 30%;
+	width: 31%;
 	min-height: 600px;
 	float: left;
-	margin-left: 15px;
+	margin-left: 19px;
 }
 
 .upimage1, .upimage2, .upimage3{
